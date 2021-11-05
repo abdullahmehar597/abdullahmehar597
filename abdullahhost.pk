@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre Task Briefing</title>
+</head>
+<body>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 900px; 
+            box-sizing: border-box;
+        }
+
+        input{
+            border: none;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        input:focus, textarea:focus{
+            outline: none;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 32px;
+            font-weight: 400;
+        }
+
+        .wrapper{
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        th{
+            background-color: #D3EFF2;
+            padding: 5px;
+        }
+        table, td, th{
+            border: 1px solid grey;
+            padding: 5px;
+        }
+        .table1 th, 
+        .table1 td{
+            width: 200px;
+            font-size: 18px;
+        }
+        .colgroup1 col{
+            width: 400px;
+        }
+
+        textarea{
+            width: 100%;
+            min-height: 2em;
+            resize: none;
+            overflow: hidden;
+            border: none;
+        }
+    </style>
+
+
+    <div class="wrapper">
+        <h1>PRE TASK BRIEFING</h1>
+        <table class="table1">
+            <tr>
+                <th>Name</th>
+                <td><input type="text"></td>
+                <th>Position</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <td><input type="date"></td>
+                <th>Location</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Time</th> 
+                <td><input type="time"></td>
+                <th>Project</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Dept/Company</th>
+                <td><input type="text"></td>
+                <th>Permit No</th>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+        <br>
+        <table class="table2">
+            <colgroup class="colgroup1">
+                <col span="1">
+            </colgroup>
+            <tr>
+                <th>Discuss and confirm the following</th>
+                <th>&#10004;</th>
+                <th>&#10006;</th>
+                <th>Remarks</th>
+            </tr>
+            <tr>
+                <td>Work scope described (including roles and responsibilities)?</td>
+                <td><input type="radio" name="point01" required="true"></td>
+                <td><input type="radio" name="point01"></td>
+                <td><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+            <tr>
+                <td>Task steps, hazards and controls discussed?</td>
+                <td><input type="radio" name="point02"></td>
+                <td><input type="radio" name="point02"></td>
+                <td><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+            <tr>
+                <td>Task risk assessment reviewed, confirmed and communicated</td>
+                <td><input type="radio" name="point03"></td>
+                <td><input type="radio" name="point03"></td>
+                <td><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+            <tr>
+                <td>Lock Out, Tag Out (LOTO) in place as required?</td>
+                <td><input type="radio" name="point04"></td>
+                <td><input type="radio" name="point04"></td>
+                <td><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+            <tr>
+                <td>Valid PTW as applicable (e.g. Hot Work, Confined Space, painting etc)?</td>
+                <td><input type="radio" name="point05"></td>
+                <td><input type="radio" name="point05"></td>
+                <td><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+            <tr>
+                <td>Tools and equipment defect free and within service date?</td>
+                <td><input type="radio" name="point06"></td> 
+                <td><input type="radio" name="point06"></td>
+                <td><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+            <tr>
+                <td>Workplace safety verified (adequate lightening, no adjacent risks - above/beside/below)?</td>
+                <td><input type="radio" name="point07"></td> 
+                <td><input type="radio" name="point07"></td>
+                <td><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+            <tr>
+                <td>Safe access maintained?</td>
+                <td><input type="radio" name="point08"></td> 
+                <td><input type="radio" name="point08"></td>
+                <td><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+            <tr>
+                <td>Prescribed PPE available/ suitable condition?</td>
+                <td><input type="radio" name="point09"></td> 
+                <td><input type="radio" name="point09"></td>
+                <td><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="4">Are there any other things to consider? (Specify and Describe)</td>
+            </tr>
+            <tr>
+                <td colspan="4"><textarea oninput="auto_grow(this)"></textarea></td>
+            </tr>
+        </table>
+
+        <p><b>Note: </b>By signing below, I am confirming that I have attended the Task Pre-Start Briefing and I am clear about what is required of me to complete this task safely and I am adequately trained to do so.</p>
+
+        <table class="table3">
+            <colgroup>
+                <col style="width: 190px;">
+                <col style="width: 70px;">
+                <col style="width: 190px;">
+                <col style="width: 190px;">
+                <col style="width: 70px;">
+                <col style="width: 190px;">
+            </colgroup>
+            <tr>
+                <th>Name of Attendees</th>
+                <th>I.D.</th>
+                <th>Signature</th>
+                <th>Name of Attendees</th>
+                <th>I.D.</th>
+                <th>Signature</th>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+        <p><b>Note:</b>By signing below, I confirm that the above controls are in place and that I have briefed my team, describing task safety requirements and verified their understanding.</p>
+
+        <table class="table4">
+            <tr>
+                <th>Signature</th>
+                <td><input type="text"></td>
+                <th>ID</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Department/Company</th>
+                <td><input type="text"></td>
+                <th>Date</th>
+                <td><input type="date"></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+    </div>
+
+    <script>
+        function auto_grow(element) {
+            element.style.height = "5px";
+            element.style.height = (element.scrollHeight)+"px";
+        }
+    </script>
+</body>
+</html>
